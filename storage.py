@@ -16,3 +16,8 @@ def load_data():
 def save_data(data):
     with open(file_name, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
+def clear_data():
+    with open('data.json', 'w') as f:
+        json.dump([], f)
+    
