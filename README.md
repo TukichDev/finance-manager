@@ -84,4 +84,4 @@ Choose an action:
 
 ## 👨‍💻 Author
 
-Created by **YourName** as a learning project.
+Created by **VivoPhone** as a learning project.
