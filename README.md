@@ -7,16 +7,27 @@ The project was created to practice building a modular application with function
 ✨ Features
 
 ➕ Add income
+
 ➖ Add expenses
+
 🏷 Choose an expense category
+
 📋 View all operations
+
 💵 Calculate total expenses
+
 ⚖️ Calculate the current balance
+
 💾 Automatically save operations to JSON
+
 📂 Automatically load saved data
+
 🗑 Clear operation history
+
 ✅ Validate numeric input
+
 🚫 Reject invalid and negative values
+
 ⏳ Display a loading animation
 
 
