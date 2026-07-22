@@ -1,13 +1,20 @@
 💰 Finance Manager
 
+<<<<<<< HEAD
 A console-based personal finance manager written in Python.
 
 The project was created to practice building a modular application with functions, modules, JSON, dictionaries, loops, input validation, and persistent data storage.
+=======
+A simple console-based expense tracker written in Python.
+
+This project was created for learning Python and gradually grows with new features after each update.
+>>>>>>> d428b91f94078d62a98e616f1b7860493ec7c13b
 
 ✨ Features
 
 ➕ Add income
 
+<<<<<<< HEAD
 ➖ Add expenses
 
 🏷 Choose an expense category
@@ -58,6 +65,17 @@ Run the application:
 python run.py
 
 🧭 Available Actions
+=======
+- ➕ Add expenses
+- 📂 Expense categories
+- 💾 Save data to JSON
+- 📂 Load data automatically on startup
+- 📊 Show total expenses
+- 📜 Display expense history
+- 🗑️ Clear expense history
+- ✅ Input validation
+- ⚠️ Error handling
+>>>>>>> d428b91f94078d62a98e616f1b7860493ec7c13b
 
 1. Add income
 2. Add expense
@@ -68,10 +86,17 @@ python run.py
 7. Show current balance
 9. Exit
 
+<<<<<<< HEAD
 💾 Data Format
+=======
+- Python 3
+- JSON
+- File Handling
+>>>>>>> d428b91f94078d62a98e616f1b7860493ec7c13b
 
 Operations are stored in data.json.
 
+<<<<<<< HEAD
 Example expense:
 
 {
@@ -80,9 +105,21 @@ Example expense:
     "amount": 850.0,
     "category": "Food"
 }
+=======
+## 📌 Current Features
+
+- Add expenses
+- Expense categories
+- Expense history
+- Total expense calculation
+- JSON storage
+- Clear expense history
+- Input validation
+>>>>>>> d428b91f94078d62a98e616f1b7860493ec7c13b
 
 Example income:
 
+<<<<<<< HEAD
 {
     "type": "incomes",
     "name": "Freelance payment",
@@ -131,10 +168,32 @@ Choose an action:
 6. Clear operation history
 7. Show current balance
 9. Exit
+=======
+## 🔮 Planned Features
+
+- ➕ Income tracking
+- 🔍 Search expenses
+- 📊 Filters by category
+- 📅 Date and time for each expense
+- 📈 Statistics
+- 🤖 Telegram Bot
+
+---
+
+## 📷 Preview
+
+Console application.
+>>>>>>> d428b91f94078d62a98e616f1b7860493ec7c13b
 
 Input: 7
 Current balance: 700.0
 
+<<<<<<< HEAD
 👨‍💻 Author
 https://github.com/TukichDev
 (Created as a learning and portfolio project.)
+=======
+## 👨‍💻 Author
+
+GitHub: https://github.com/VivoPhoneDev
+>>>>>>> d428b91f94078d62a98e616f1b7860493ec7c13b
