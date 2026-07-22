@@ -34,7 +34,7 @@ The project was created to practice building a modular application with function
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/finance-manager.git
+git clone https://github.com/TukichDev/finance-manager.git
 
 Open the project folder:
 
