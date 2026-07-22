@@ -98,5 +98,7 @@ Input: 7
 Current balance: 700.0
 
 👨‍💻 Author
+
 https://github.com/TukichDev
+
 Created as a learning and portfolio project.
