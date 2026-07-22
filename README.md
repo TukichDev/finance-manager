@@ -7,28 +7,18 @@ The project was created to practice building a modular application with function
 ✨ Features
 
 ➕ Add income
-
 ➖ Add expenses
-
 🏷 Choose an expense category
-
 📋 View all operations
-
 💵 Calculate total expenses
-
 ⚖️ Calculate the current balance
-
 💾 Automatically save operations to JSON
-
 📂 Automatically load saved data
-
 🗑 Clear operation history
-
 ✅ Validate numeric input
-
 🚫 Reject invalid and negative values
-
 ⏳ Display a loading animation
+
 
 🚀 Getting Started
 
@@ -54,32 +44,6 @@ python run.py
 6. Clear operation history
 7. Show current balance
 9. Exit
-
-💾 Data Format
-
-Operations are stored in data.json.
-
-Example expense:
-
-{
-    "type": "expenses",
-    "name": "Groceries",
-    "amount": 850.0,
-    "category": "Food"
-}
-
-Example income:
-
-{
-    "type": "incomes",
-    "name": "Freelance payment",
-    "amount": 5000.0,
-    "category": "Nope"
-}
-
-The current balance is calculated as:
-
-total income - total expenses
 
 🛠 Technologies
 
