@@ -30,19 +30,6 @@ The project was created to practice building a modular application with function
 
 ⏳ Display a loading animation
 
-📁 Project Structure
-
-FinanceManager/
-│
-├── run.py          # Main program loop and menu handling
-├── actions.py      # Menu output
-├── expenses.py     # Expense creation and category logic
-├── incomes.py      # Income creation logic
-├── storage.py      # JSON saving, loading, clearing, and balance calculation
-├── loading.py      # Loading animation
-├── data.json       # Saved operations
-└── README.md
-
 🚀 Getting Started
 
 Clone the repository:
