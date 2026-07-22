@@ -20,4 +20,16 @@ def save_data(data):
 def clear_data():
     with open('data.json', 'w') as f:
         json.dump([], f)
-    
+
+
+def balance():
+    balance_ = load_data()
+
+    total_balance = 0
+
+    for money in balance_:
+        if money["type"] == "incomes":
+            total_balance += money["amount"]
+        else:
+            total_balance -= money["amount"]
+    return total_balance

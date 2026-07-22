@@ -1,100 +1,140 @@
-# 💰 FinManager
+💰 Finance Manager
 
-A simple console-based expense tracker written in Python.
+A console-based personal finance manager written in Python.
 
-This project was created for learning Python and gradually grows with new features after each update.
+The project was created to practice building a modular application with functions, modules, JSON, dictionaries, loops, input validation, and persistent data storage.
 
----
+✨ Features
 
-## ✨ Features
+➕ Add income
 
-- ➕ Add expenses
-- 📂 Expense categories
-- 💾 Save data to JSON
-- 📂 Load data automatically on startup
-- 📊 Show total expenses
-- 📜 Display expense history
-- 🗑️ Clear expense history
-- ✅ Input validation
-- ⚠️ Error handling
+➖ Add expenses
 
----
+🏷 Choose an expense category
 
-## 📁 Project Structure
+📋 View all operations
 
-```
-FinManager/
+💵 Calculate total expenses
+
+⚖️ Calculate the current balance
+
+💾 Automatically save operations to JSON
+
+📂 Automatically load saved data
+
+🗑 Clear operation history
+
+✅ Validate numeric input
+
+🚫 Reject invalid and negative values
+
+⏳ Display a loading animation
+
+📁 Project Structure
+
+FinanceManager/
 │
-├── run.py          # Main program
-├── expenses.py     # Expense logic
-├── storage.py      # JSON loading/saving
-├── actions.py      # Menu actions
+├── run.py          # Main program loop and menu handling
+├── actions.py      # Menu output
+├── expenses.py     # Expense creation and category logic
+├── incomes.py      # Income creation logic
+├── storage.py      # JSON saving, loading, clearing, and balance calculation
 ├── loading.py      # Loading animation
-├── data.json       # Stored expenses
+├── data.json       # Saved operations
 └── README.md
-```
 
----
-
-## 🚀 How to Run
+🚀 Getting Started
 
 Clone the repository:
 
-```bash
-git clone https://github.com/VivoPhoneDev/FinManager.git
-```
+git clone https://github.com/YOUR_USERNAME/finance-manager.git
 
-Go to the project folder:
+Open the project folder:
 
-```bash
-cd FinManager
-```
+cd finance-manager
 
-Run the program:
+Run the application:
 
-```bash
 python run.py
-```
 
----
+🧭 Available Actions
 
-## 🛠 Technologies
+1. Add income
+2. Add expense
+3. Show total expenses
+4. Show all operations
+5. Choose category
+6. Clear operation history
+7. Show current balance
+9. Exit
 
-- Python 3
-- JSON
-- File Handling
+💾 Data Format
 
----
+Operations are stored in data.json.
 
-## 📌 Current Features
+Example expense:
 
-- Add expenses
-- Expense categories
-- Expense history
-- Total expense calculation
-- JSON storage
-- Clear expense history
-- Input validation
+{
+    "type": "expenses",
+    "name": "Groceries",
+    "amount": 850.0,
+    "category": "Food"
+}
 
----
+Example income:
 
-## 🔮 Planned Features
+{
+    "type": "incomes",
+    "name": "Freelance payment",
+    "amount": 5000.0,
+    "category": "Nope"
+}
 
-- ➕ Income tracking
-- 🔍 Search expenses
-- 📊 Filters by category
-- 📅 Date and time for each expense
-- 📈 Statistics
-- 🤖 Telegram Bot
+The current balance is calculated as:
 
----
+total income - total expenses
 
-## 📷 Preview
+🛠 Technologies
 
-Console application.
+🐍 Python 3
 
----
+📄 JSON
 
-## 👨‍💻 Author
+📦 Python Standard Library
 
-GitHub: https://github.com/VivoPhoneDev
+🌿 Git and GitHub
+
+📌 Planned Improvements
+
+🔍 Search operations by name
+
+📅 Filter operations by date
+
+🏷 Filter expenses by category
+
+📊 Add statistics and charts
+
+🗃 Migrate storage from JSON to SQLite
+
+🤖 Create a Telegram bot version
+
+🌐 Build a web version with Flask or FastAPI
+
+📸 Example
+
+Choose an action:
+1. Add income
+2. Add expense
+3. Show total expenses
+4. Show all operations
+5. Choose category
+6. Clear operation history
+7. Show current balance
+9. Exit
+
+Input: 7
+Current balance: 700.0
+
+👨‍💻 Author
+https://github.com/TukichDev
+(Created as a learning and portfolio project.)
